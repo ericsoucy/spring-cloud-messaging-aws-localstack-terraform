@@ -22,7 +22,9 @@ curl http://localhost:4566/health | jq
 ## Terraform with local stack
 
 <https://registry.terraform.io/providers/hashicorp/aws/latest/docs/guides/custom-service-endpoints#localstack>
+
 <https://docs.localstack.cloud/integrations/terraform/>
+
 <https://dev.to/mrwormhole/localstack-with-terraform-and-docker-for-running-aws-locally-3a6d>
 
 ```bash
