@@ -2,7 +2,11 @@
 
 Based on <https://auth0.com/blog/spring-cloud-messaging-with-aws-and-localstack/>
 
-# 3# Running localstack
+## AWS SQS SNS
+
+![aws sns sqs](./AWS-SQS-SNS.png)
+
+## Running localstack
 
 ```bash
 // run localstack
@@ -41,3 +45,7 @@ aws --endpoint=http://localhost:4566 logs describe-log-groups
 aws --endpoint=http://localhost:4566 logs describe-log-streams --log-group-name sns/ca-central-1/000000000000/order-created-topic
 aws --endpoint=http://localhost:4566 logs get-log-events --log-group-name sns/ca-central-1/000000000000/order-created-topic --log-stream-name 'bc9f4387-16e9-448d-8e61-2b094621e9cd'
 ```
+
+## to still investigate
+
+<https://github.com/localstack/localstack-java-utils>
