@@ -5,6 +5,7 @@ Based on <https://auth0.com/blog/spring-cloud-messaging-with-aws-and-localstack/
 ## AWS SQS SNS
 
 ![aws sns sqs](./AWS-SQS-SNS.png)
+![architecture](./architecture.svg)
 
 ## Running localstack
 
